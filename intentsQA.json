@@ -1,0 +1,39 @@
+{"intents": [
+  {"tag": "saludos",
+  "patterns": ["Hola","hola","buenos dias","saludos","¿que tal?","¿como te va?"],
+  "responses": ["¡Hola!", "¡Bienvenido!", "¿Qué puedo hacer por ti?"]
+  },
+
+  {"tag": "nombre",
+  "patterns": ["¿cómo te llamas?", "¿Cual es tu nombre?", "¿cómo te llamas?", "¿Quién eres?", "¿Cómo debo llamarte?"],
+  "responses": ["Puedes llamarme AiMara Bot","Soy AiMara bot","Soy AiMara bot, tu asistente virtual"]
+  },
+
+
+
+  {"tag": "articulo5",
+  "patterns": ["¿Cuáles son las condiciones para que un estudiante obtenga automáticamente el grado académico de bachiller en la UNAM?", "¿quienes pueden obtener grado académico de bachiller automático?","¿hasta que año es bachiller automatico?"],
+  "responses": ["La Universidad Nacional de Moquegua, excepcionalmente, otorga el grado académico de bachiller, en forma automática, en los siguientes casos: a. A los estudiantes que hayan aprobado los estudios de pregrado en las escuelas profesionales de la Universidad, durante los años 2020, 2021, 2022 y 2023, accediendo a su solicitud y en forma automática a la obtención del grado, exonerándoseles de los requisitos establecidos en el numeral 45.1 del artículo 45º de la ley No 30220, Ley Universitaria. b. Los estudiantes que iniciaron sus estudios antes del 31 de diciembre del 2015, en la Universidad, acceden en forma automática a la obtención del grado, no estando comprendidos en el artículo 45º de la Ley No 30220, Ley Universitaria.","Los estudiantes que pueden obtener automáticamente el grado académico de bachiller son aquellos que hayan aprobado los estudios de pregrado en las escuelas profesionales de la Universidad Nacional de Moquegua durante los años 2020, 2021, 2022 y 2023. Esta obtención automática del grado se realiza mediante la presentación de una solicitud y exonerándolos de los requisitos establecidos en el numeral 45.1 del artículo 45º de la ley No 30220, Ley Universitaria."]
+  },
+
+  {"tag": "articulo6",
+  "patterns": ["¿?", "¿?","¿?"],
+  "responses": ["",""]
+  },
+
+
+  {"tag": "despedida",
+  "patterns": ["cya","Hasta luego","Adiós","Me voy","Que tengas un buen día","adiós","nos vemos"],
+  "responses": ["Triste de verte partir :(","Hablamos luego","Adiós"]
+  },
+
+  {"tag": "invalido",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Lo siento, no puedo entenderte", "Por favor, dame más información", "No estoy seguro de entender"]
+  },
+
+  {"tag": "despedida",
+    "patterns": ["Gracias", "Gracias", "Eso es útil", "Impresionante, gracias", "Gracias por ayudarme"],
+    "responses": ["Encantado de ayudar!", "En cualquier momento!", "Mi placer"]
+  }
+]}

@@ -1,0 +1,41 @@
+{"intents": [
+  {"tag": "saludos",
+  "patterns": ["Hola","hola","hola","buen dia","saludos","que tal?","como te va?"],
+  "responses": ["¡Hola!", "¡Oye!", "¿Qué puedo hacer por ti?"]
+  },
+
+  {"tag": "nombre",
+  "patterns": ["¿cómo te llamas?", "¿cual es tu nombre?", "¿cómo te llamas?", "¿quién eres?", "¿cómo debo llamarte?"],
+  "responses": ["Puedes llamarme Epishi","Soy Epishi","Soy Epishi tu asistente virtual"]
+  },
+
+  {"tag": "cursos",
+  "patterns": ["qué cursos hay disponibles", "cuántos cursos hay en esta universidad"],
+  "responses": ["Informatics College Pokhara ha estado en asociación directa con la Universidad Metropolitana de Londres, \nReino Unido para brindar una educación superior envidiable en TI y Negocios a los estudiantes en Pokhara.\nPara la Licenciatura en Tecnología de la Información hemos estado ofreciendo la especialización en BSc (Hons) Computing. \nPara los Licenciados en Administración de Empresas hemos estado ofreciendo lo siguiente:\n\n1. BBA (Marketing) con Negocios Internacionales\n\n2. BBA (Contabilidad y Finanzas) con Negocios Internacionales\n\n3. BBA (Negocios Internacionales)"]
+  },
+
+   {"tag": "coursoDuracion",
+  "patterns": ["cuánto durará el curso BIT o BBA", "cuánto tiempo llevará completar el curso BIT o BBA"],
+  "responses": ["Nuestra universidad ofrece un curso BIT de 3 años de duración y un curso BBA de 3 años y medio de duración"]
+  },
+
+  {"tag": "costo",
+  "patterns": ["cuánto cuesta la matrícula universitaria","cuál es la estructura de tarifas"],
+  "responses": ["BIT del curso\nTasa de admisión=96 000 RS\nAño 1\nTasa de universidad y examen= 100 000 RS Cuota semestral=69 000 RS Cuota total= 334 000 RS\nAño 2\nTasa de universidad y examen= 100 000 RS Cuota semestral=69 000 RS Cuota total = RS 238 000\nAño 3\nTasa universitaria y de examen= RS 100 000 Tasa cada semestre=RS 69 000 Tasa total= RS 238 000\nTasa general total= RS 810 000\n\nCurso BBA\nTasa de admisión=RS 96 000\nAño 1\nTasa universitaria y de examen = 100 000 RS Cuota de cada semestre=52 000 RS Cuota total= 300 000 RS\nAño 2\nCuota de universidad y examen= 100 000 RS Cuota de cada semestre=52 000 RS Cuota total= 204 000 RS\nTarifa de año 3\nCuota de universidad y examen= 100 000 RS Cuota de cada semestre =RS 52 000 Tarifa total = RS 204 000\nAño 4\nTarifa universitaria y de examen = RS 50 000 Tarifa semestral = RS 52 000 Tarifa total = RS 102 000\n Tarifa total total = RS 810 000"]
+  },
+
+  {"tag": "despedida",
+  "patterns": ["cya","Hasta luego","Adiós","Me voy","Que tengas un buen día","adiós","nos vemos"],
+  "responses": ["Triste de verte partir :(","Hablamos luego","Adiós"]
+  },
+
+  {"tag": "invalido",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Lo siento, no puedo entenderte", "Por favor, dame más información", "No estoy seguro de entender"]
+  },
+
+  {"tag": "despedida",
+    "patterns": ["Gracias", "Gracias", "Eso es útil", "Impresionante, gracias", "Gracias por ayudarme"],
+    "responses": ["Encantado de ayudar!", "En cualquier momento!", "Mi placer"]
+  }
+]}
